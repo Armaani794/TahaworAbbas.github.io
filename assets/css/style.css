@@ -344,6 +344,7 @@ h6 {
 section {
   overflow: hidden;
   position: absolute;
+  /* position: relative; */
   width: 100%;
   top: 140px;
   bottom: 100%;
@@ -358,6 +359,20 @@ section.section-show {
   opacity: 1;
   padding-bottom: 45px;
 }
+/* section {
+  position: relative;
+  width: 100%;
+  opacity: 1;
+  z-index: 2;
+}
+
+section.section-show {
+  top: auto;
+  bottom: auto;
+  opacity: 1;
+  padding-bottom: 45px;
+} */
+
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
@@ -1200,7 +1215,7 @@ section .container {
   font-size: inherit;
   margin-left: 2px;
 }
-.swiper-slide img {
+.swiper-slide-detail img {
   width: 100% !important;
 }
 .header-static {
