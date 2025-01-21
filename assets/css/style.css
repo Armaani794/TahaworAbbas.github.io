@@ -341,9 +341,9 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-/*   overflow: hidden;
-  position: absolute; */
+/* section {
+  overflow: hidden;
+  position: absolute;
   position: relative;
   width: 100%;
   top: 140px;
@@ -358,8 +358,8 @@ section.section-show {
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
-}
-/* section {
+} */
+section {
   position: relative;
   width: 100%;
   opacity: 1;
@@ -371,7 +371,7 @@ section.section-show {
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
-} */
+}
 
 
 section .container {
